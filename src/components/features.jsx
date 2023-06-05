@@ -7,12 +7,14 @@ export const Features = (props) => {
         padding: "100px 0",
       }}>
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Value</h2>
+          <h2>Why UNTIE?</h2>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-4">
+                <div key={`${d.title}-${i}`} className="col-xs-12 col-md-4" style={{
+                    marginBottom: '40px',
+                }}>
                   {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>

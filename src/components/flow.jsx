@@ -12,75 +12,30 @@ export const Flow = (props) => {
 
         {props.data ? 
             props.data.map((d, i) => (
-                <div style={{
-                    display: "flex",
-                    width: '100%',
-                    height: '400px',
-                    marginBottom: '130px',
-                }}>
-                {i % 2 === 0 ? (
-                    <>
-                        <div key={`${d.title}-${i}`} style={{
-                            flex: 1,
-                            height: '100%',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            padding: '0 70px',
-                            textAlign: 'center',
-                        }}>
-                            <h3 style={{
-                                color: "#5ca9fb",
-                                marginBottom: "20px",
-                                fontSize: "22px",
-                                fontWeight: "bold",
-                            }}>{d.title}</h3>
+                <div className="flow-container">
+                {/* {i % 2 === 0 ? (
+                    <> */}
+                        <div className="col-md-5 col-xs-12 flow-text-box" key={`${d.title}-${i}`} >
+                            <h3 className="flow-title">{d.title}</h3>
                             <p>{d.text}</p>
                         </div>
 
-                        <div style={{
+                        <div className="col-md-7 col-xs-12 flow-image-box" style={{
                             background: `url(${d.image})`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            flex: 1.5,
-                            height: "100%",
-                            borderRadius: "35px",
-                            boxShadow: "0px 0px 5px 0px rgba(0,0,0,0.3)",
                         }} />
-                    </>
+                    {/* </>
                 ) : (
                     <>
-                        <div  style={{
+                        <div className="col-md-7 col-xs-12 flow-image-box" style={{
                             background: `url(${d.image})`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            flex: 1.5,
-                            height: "100%",
-                            borderRadius: "35px",
-                            boxShadow: "0px 0px 5px 0px rgba(0,0,0,0.3)",
                         }}/>
 
-                        <div key={`${d.title}-${i}`} style={{
-                            flex: 1,
-                            height: '100%',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            padding: '0 70px',
-                            textAlign: 'center',
-                        }}>
-                            <h3 style={{
-                                color: "#5ca9fb",
-                                marginBottom: "20px",
-                                fontSize: "22px",
-                                fontWeight: "bold",
-                            }}>{d.title}</h3>
+                        <div className="col-md-5 col-xs-12 flow-text-box" key={`${d.title}-${i}`}>
+                            <h3 className="flow-title">{d.title}</h3>
                             <p>{d.text}</p>
                         </div>
                     </>
-                )}
+                )} */}
                 </div>
         )) : "Loading..."}
 
