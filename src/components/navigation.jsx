@@ -17,8 +17,13 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Untie
+          <a className="navbar-brand page-scroll" href="#page-top" style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}>
+            <img src="img/logo_transparent.png" alt="Untie Logo" width={150} />
+            {/* Untie */}
           </a>{" "}
         </div>
 
@@ -29,7 +34,7 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                Values
               </a>
             </li>
             <li>
@@ -38,13 +43,8 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
+              <a href="#userflow" className="page-scroll">
+                Flow
               </a>
             </li>
             <li>
