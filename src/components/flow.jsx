@@ -2,9 +2,7 @@ import React from "react";
 
 export const Flow = (props) => {
   return (
-    <div id="userflow" className="text-center" style={{
-        padding: "100px 0",
-    }}>
+    <div id="userflow" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>User Flow</h2>
