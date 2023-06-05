@@ -12,3 +12,47 @@
   }
 
 }
+
+@media screen and (max-width: 768px) {
+  #userflow > .container {
+    padding: 50px 0;
+  }
+
+  #userflow > .container > .section-title {
+    margin-bottom: 20px;
+  }
+
+  .flow-container {
+    flex-direction: column;
+    height: 550px;
+    padding: 0 20px;
+  }
+
+  .flow-container:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .flow-container > .flow-text-box {
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  #features > .container {
+    padding: 50px 0;
+  }
+
+  #testimonials .testimonial {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  #testimonials .testimonial .testimonial-image {
+    margin-bottom: 30px;
+  }
+
+  #about img {
+    margin: 50px 0;
+  }
+
+}

@@ -22,16 +22,8 @@ code {
 
 #userflow > .container {
   padding: 100px 0;
-  @media (max-width: 768px) {
-    padding: 50px 0;
-  }
 }
 
-#userflow > .container > .section-title {
-  @media (max-width: 768px) {
-    margin-bottom: 20px;
-  }
-}
 
 .flow-container {
   display: flex;
@@ -40,18 +32,10 @@ code {
   width: 100%;
   height: 400px;
   margin-bottom: 130px;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    height: 550px;
-    padding: 0 20px;
-  }
 }
 
 .flow-container:nth-child(odd) {
   flex-direction: row-reverse;
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
 }
 
 .flow-container > .flow-text-box {
@@ -63,10 +47,6 @@ code {
   padding: 0 70px;
   text-align: center;
   flex: 1;
-  @media (max-width: 768px) {
-    padding: 0 20px;
-    margin-bottom: 30px;
-  }
 }
 
 .flow-container > .flow-text-box > .flow-title {
@@ -87,23 +67,9 @@ code {
 
 #features > .container {
   padding: 100px 0;
-  @media (max-width: 768px) {
-    padding: 50px 0;
-  }
 }
 
 #testimonials .testimonial {
   display: flex;
   flex-direction: row;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-}
-
-#testimonials .testimonial .testimonial-image {
-  @media (max-width: 768px) {
-    margin-bottom: 30px;
-  }
 }
