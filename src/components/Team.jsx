@@ -19,6 +19,7 @@ export const Team = (props) => {
                     <div style={{
                       width: '240px',
                       height: '240px',
+                      margin: '0 auto',
                       borderRadius: '50%',
                       background: `url('${d.img}')`,
                       backgroundSize: 'cover',
