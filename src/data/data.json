@@ -167,26 +167,26 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "서울 관악구 관악로 1",
+    "phone": "+82 10-1234-5678",
+    "email": "untie@snu.ac.kr",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-folder-open",
       "title": "정확성",
       "text": "최신 유관 법률, 판례, 보도자료 등을 근거로\n 보다 정확한 답변을 제공합니다."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-clock-o",
       "title": "신속성",
       "text": "업무 중 수시로 마주하는 법률 관련 질문들에 대해\n 실시간으로 답변을 제공받을 수 있습니다."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-money",
       "title": "비용 절감",
       "text": "기존 법률 자문 의뢰 서비스에 지출하는 비용의 10분의 1로 \n양질의 법률서비스를 제공받을 수 있습니다."
     }
