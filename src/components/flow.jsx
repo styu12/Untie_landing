@@ -18,7 +18,7 @@ export const Flow = (props) => {
 
                         <div className="flow-image-box" style={{
                             background: `url('${d.image}')`,
-                            backgroundSize: 'contain',
+                            backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center',
                         }} />
