@@ -17,7 +17,10 @@ export const Flow = (props) => {
                         </div>
 
                         <div className="flow-image-box" style={{
-                            background: `url(${d.image})`,
+                            background: `url('${d.image}')`,
+                            backgroundSize: 'contain',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
                         }} />
                 </div>
         )) : "Loading..."}

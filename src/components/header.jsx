@@ -19,7 +19,7 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="https://www.figma.com/proto/t4g1QsRzxpfW0uoTq5RjUW/Untie?page-id=0%3A1&type=design&node-id=1-212&viewport=579%2C1112%2C0.33&scaling=min-zoom&starting-point-node-id=1%3A212"
+                  href="https://www.figma.com/proto/t4g1QsRzxpfW0uoTq5RjUW/Untie?page-id=0%3A1&type=design&node-id=220-9666&viewport=-6492%2C1655%2C0.61&scaling=min-zoom&starting-point-node-id=223%3A11836"
                   target="_blank"
                   className="btn btn-custom btn-lg page-scroll" rel="noreferrer"
                 >
